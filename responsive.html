@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        @media only screen and (max-width: 480px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        @media only screen and (max-width: 1020px) and (min-width: 481px) {
+            body {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Media query chứa CSS và các CSS này sẽ được áp dụng
+        nếu đạt điều kiện mà mình đặt ra là đúng
+    </h1>
+</body>
+
+</html>
